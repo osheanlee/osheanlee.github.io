@@ -1,17 +1,17 @@
 +++
-author = "First blog"
+author = "Hugo Future Imperfect Slim"
 categories = ["Markdown"]
-date = "2019-08-19"
-description = "First blog"
-featured = "pic01.jpg"
-featuredalt = "Pic 1"
-featuredpath = "date"
+date = "2019-01-01"
+description = "Markdown and Shortcode Examples"
+featured = ""
+featuredalt = ""
+featuredpath = ""
 linktitle = ""
-title = "First"
+title = "Markdown and Shortcodes"
 type = "post"
 
 +++
-testing
+
 # Thanks!
 Special thanks to [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
