@@ -1,6 +1,6 @@
 baseurl                 = "/"
 DefaultContentLanguage  = "en"
-title                   = "Oshean!!!"
+title                   = "Oshean Lee Garonita | Mapper | Environmental Planner"
 theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
 paginate                = 3
