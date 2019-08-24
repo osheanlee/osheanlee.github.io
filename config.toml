@@ -261,12 +261,9 @@ disableLanguages        = [""]
 [social]
   # Coding Communities
   github                = "osheanlee"
-  stackoverflow         = "" # User Number
   # Professional/Business Oriented Communities
-  linkedin              = "example"
+  linkedin              = "/in/osheanleegaronita"
   # Social Networks
-  reddit                = "example"
   instagram             = "example"
-  twitter               = "example"
   # Email
-  email                 = "example"
+  email                 = "osheanleegaronita@gmail.com"

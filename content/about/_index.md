@@ -1,9 +1,9 @@
 +++
-title = "Testing"
-date = "2014-04-09"
+title = "About"
+date = "2019-08-24"
 +++
 
-Hugo is a static site engine written in Go.
+Oshean is a Mapper, Environmental Planner, and aspiring GeoData Scientist based in Philippines. 
 
 
 It makes use of a variety of open source projects including:
