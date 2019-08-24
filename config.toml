@@ -57,8 +57,9 @@ disableLanguages        = [""]
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
-    header                = "Geo mapper"
-    paragraph             = "I map you."
+    header                = "The Gist"
+    paragraph             = "Being on-point with Oshean Lee Garonita"
+    paragraph             = "Mapper, Envi Planner, and (somehow) Travel Junkie"
     rssIntro              = true
     socialIntro           = true
 
