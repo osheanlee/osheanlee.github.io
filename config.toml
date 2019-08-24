@@ -47,7 +47,7 @@ disableLanguages        = [""]
 
   [params.header]
     # Sets the navbarTitle that appears in the top left of the navigation bar
-    navbarTitle         = "Osheans sees all"
+    navbarTitle         = "See All"
     # Sets navbarTitle to match the section of the website
     dynamicTitles       = true
     searchMenu          = true
@@ -58,8 +58,7 @@ disableLanguages        = [""]
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "The Gist"
-    paragraph             = "Being on-point with Oshean Lee Garonita"
-    paragraph             = "Mapper, Envi Planner, and (somehow) Travel Junkie"
+    paragraph             = "Being on-point with Oshean Lee Garonita <p> Mapper, Envi Planner, and (sometimes) travel junkie. </p>"
     rssIntro              = true
     socialIntro           = true
 
