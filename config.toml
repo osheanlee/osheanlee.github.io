@@ -58,7 +58,7 @@ disableLanguages        = [""]
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "The Gist"
-    paragraph             = "Being on-point with Oshean Lee Garonita <p> Mapper, Envi Planner, and (sometimes) travel junkie. </p>"
+    paragraph             = "Being on-point with Oshean Lee Garonita."
     rssIntro              = true
     socialIntro           = true
 
