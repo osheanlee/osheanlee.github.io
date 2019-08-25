@@ -36,7 +36,7 @@ I got the data from HLURB's [website]("https://www.hlurb.gov.ph/wp-content/uploa
 
 **DISCLAIMER**: I cannot guarantee the accuracy of the CLUP and PPFP approvals. For further information, it is still best to consult the HLURB and the Local Government Units (LGUs). This data analysis that I did is **meant to help** fellow Environmental Planners to see which areas would need for their plans to be updated. This is **not meant and will never mean** to degrade stakeholders and **should NOT be used in pointing fingers and blame** as to why these plans are not updated. <u> Save your bureaucratic comments elsewhere</u>.
 
-<div class='tableauPlaceholder' id='viz1566708650794' style='position: relative'><noscript><a href='#'><img
+{{ <div class='tableauPlaceholder' id='viz1566708650794' style='position: relative'><noscript><a href='#'><img
             alt=' '
             src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PP&#47;PPFPandCLUPforUpdating&#47;PPFPforUpdating&#47;1_rss.png'
             style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
@@ -57,4 +57,4 @@ I got the data from HLURB's [website]("https://www.hlurb.gov.ph/wp-content/uploa
     <script
       type='text/javascript'>                   
     var divElement = document.getElementById('viz1566708650794'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);               
-    </script>
+    </script> }}
