@@ -28,6 +28,6 @@ Now:
 * Volunteer for the same NGO where I used to be its GIS Officer
 * Volunteer for an NGO that focuses on making communities resilient
 
-The contents of this site does not reflect the opinion of my employer.
+**The contents of this site do not reflect the opinion of my employer.**
 
 More info can be seen on my [LinkedIn](https://linkedin.com/in/osheanleegaronita)!
