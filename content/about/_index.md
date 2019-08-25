@@ -3,26 +3,27 @@ title = "About"
 date = "2019-08-24"
 +++
 
-I am a Mapper, Environmental Planner, and aspiring GeoData Scientist based in the Philippines. 
+Oshean is a Mapper, Environmental Planner, and aspiring GeoData Scientist based in Philippines. 
 
-My interests are maps, urban plans, volunteerism, conservation work, and data science.
 
-## What am I before and what am I now
+It makes use of a variety of open source projects including:
 
-Before:
-* Planning Officer for a [government agency](https://mmda.gov.ph)
-* Consultant (Urban Planner) for a [CGIAR](https://worldagroforestry.org/) institution
-* Youth volunteer for a [government agency](https://nyc.gov.ph)
-* GIS Specialist for a [foundation](https://reid.ph)
-* GIS Mapping Specialist for a planning consultancy firm
-* GIS Officer for a [non-government organization](https://haribon.org.ph/)
+* [Cobra](https://github.com/spf13/cobra)
+* [Viper](https://github.com/spf13/viper)
+* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
+* [Cast](https://github.com/spf13/cast)
 
-Now:
-* Geospatial Analyst for a [Data Science startup](https://thinkingmachin.es)
-* Seasonal lecturer for review institutions for the annual Philippine Environmental Planning licensure exam
-* Volunteer for the same NGO where I used to be its GIS Officer
-* Volunteer for an NGO that focuses on making communities resilient
+Learn more and contribute on [GitHub](https://github.com/spf13).
 
-The contents of this site does not reflect the opinion of my employer.
+## Setup
 
-More info can be seen on my [LinkedIn](https://linkedin.com/in/osheanleegaronita)!
+Some fun facts about [Hugo](http://gohugo.io/):
+
+* Built in [Go](http://golang.org/)
+* Loosely inspired by [Jekyll](http://jekyllrb.com/)
+* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
+* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
+
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
+
+Thanks for reading!
