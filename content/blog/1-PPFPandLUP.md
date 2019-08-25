@@ -32,6 +32,6 @@ having a <u>Land Use Plan</u>. A lot of countries practice having these plans in
 I made a simple analysis that could hopefully help as a jumpstart for planners on which areas to help. Based on my analysis, there are still
 <b>1,302</b> cities and municipalities that would still need for the CLUPs to be updated as of <i>August 18, 2019</i>. On the other hand, there are <b>198</b> cities and municipalities who do not have CLUPs yet.
 
-I got the data from HLURB's [website]("https://www.hlurb.gov.ph/wp-content/uploads/services/lgu/Approved%20CLUP.pdf") (GOOGLE-D IT). Based on the PDF file, the data is as of <b>2015</b>.
+I got the data from HLURB's [website]("https://www.hlurb.gov.ph/wp-content/uploads/services/lgu/Approved%20CLUP.pdf"). Based on the PDF file, the data is as of <b>2015</b>.
 
 <b> DISCLAIMER </b>: I cannot guarantee the accuracy of the CLUP and PPFP approvals. For further information, it is still best to consult the HLURB and the Local Government Units (LGUs). This data analysis that I did is <b> meant to help </b> fellow Environmental Planners to see which areas would need for their plans to be updated. This is <b> not meant and will never mean </b> to degrade stakeholders and <b> should NOT be used in pointing fingers and blame </b> as to why these plans are not updated. <u> Save your bureaucratic comments elsewhere</u>.
