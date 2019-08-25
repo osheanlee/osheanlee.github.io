@@ -27,7 +27,7 @@ Of course not.
 Plans are already being used even before so that we could try to improve the lives of other people. One plan that could help us on this is
 having a <u>Land Use Plan</u>. A lot of countries practice having these plans in their respective jurisdictions, including of course the Philippines. In fact, some [laws](http://hlurb.gov.ph/law-issuances/land-use-planning/) already mandate that all cities and municipalities should have a Comprehensive Land Use Plan (CLUP) while provinces should have a Provincial Physical Framework Plan (PPFP), and that they should be updated after a specified timeframe or life cycle (usually 10 years for CLUP and greater for PPFPs). But are all of these updated? And for Environmental Planners (EnPs), maybe we could help some communities who do not have yet!
 
-## Analyzing the PPFP and CLUP Data
+## Analyzing the Data
 
 I got the data from HLURB's [website](http://www.hlurb.gov.ph/wp-content/uploads/services/lgu/Approved%20CLUP.pdf). Based on the PDF file, the data is as of **2015**.
 
@@ -36,9 +36,9 @@ I got the data from HLURB's [website](http://www.hlurb.gov.ph/wp-content/uploads
 I made a simple analysis that could hopefully help as a jumpstart for planners on which areas to help. Based on my analysis, there are still
 **1,302** cities and municipalities that would still need for the CLUPs to be updated as of <i>August 18, 2019</i>. On the other hand, there are **198** cities and municipalities who do not have CLUPs yet.
 
+For provinces, there are **19** areas with no PPFPs, while **58** provinces would need to update their PPFPs. This is out of 79 provinces based on the data.
 
-
-I also made a dashboard to visualize which provinces need for their PPFPs to be updated, and how many CLUPs would we need to update per province.
+I made a dashboard to visualize which provinces need for their PPFPs to be updated, and how many CLUPs would we need to update per province.
 
 <div class='tableauPlaceholder' id='viz1566751363857' style='position: relative'>
   <noscript>
@@ -73,4 +73,8 @@ I also made a dashboard to visualize which provinces need for their PPFPs to be 
     vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 </script>
 
-Wanna know how I did my analysis? Sure! Happy to share the [codes](https://github.com/osheanlee/data-analysis) that I used for my analysis. If you can improve the analysis, feel free to fork and send a pull request on my github account! :)
+I will not include the list of provinces and municipalities that needs to be updated. If you wanna see them, you may wish to visit the link that I posted.
+
+Wanna know how I did my analysis? Sure! Happy to share the [codes](https://github.com/osheanlee/data-analysis) that I used for my analysss. If you can improve the analysis, feel free to fork and send a pull request on my github account! :)
+
+Bonus insight: Top 3 oldest CLUPs? 1st is in CAR Region, then top 2 is in Region VI, then top 3 is in CAR too.
