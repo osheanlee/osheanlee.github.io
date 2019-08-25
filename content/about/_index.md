@@ -1,7 +1,7 @@
 +++
 title = "About"
 date = "2019-08-24"
-featured = "main/oshean-profpic.jpg"
+featured = "oshean-profpic.jpg"
 featuredalt = "oshean-profpic"
 +++
 
@@ -9,9 +9,9 @@ I am a Mapper, Environmental Planner, and aspiring GeoData Scientist based in th
 
 My interests are maps, urban plans, volunteerism, conservation work, and data science.
 
-## Before & Now
+## Then & Now
 
-Before:
+Then:
 
 * Planning Officer for a [government agency](https://mmda.gov.ph)
 * Consultant (Urban Planner) for a [CGIAR](https://worldagroforestry.org/) institution
