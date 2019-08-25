@@ -1,6 +1,8 @@
 +++
 title = "About"
 date = "2019-08-24"
+featured = "main/oshean-profpic.jpg"
+featuredalt = "oshean-profpic"
 +++
 
 I am a Mapper, Environmental Planner, and aspiring GeoData Scientist based in the Philippines. 
