@@ -31,7 +31,7 @@ having a <u>Land Use Plan</u>. A lot of countries practice having these plans in
 
 I got the data from HLURB's [website](http://www.hlurb.gov.ph/wp-content/uploads/services/lgu/Approved%20CLUP.pdf). Based on the PDF file, the data is as of **2015**.
 
-**DISCLAIMER**: I cannot guarantee the accuracy of the CLUP and PPFP approvals. For further information, it is still best to consult the HLURB and the Local Government Units (LGUs). This data analysis that I did is **meant to help** fellow Environmental Planners to see which areas would need for their plans to be updated. This is **not meant and will never mean** to degrade stakeholders and **should NOT be used in pointing fingers and blame** as to why these plans are not updated. <u> Save your bureaucratic comments elsewhere</u>.
+**DISCLAIMER**: I cannot guarantee the accuracy of the CLUP and PPFP approvals. For further information, it is still best to consult the HLURB and the Local Government Units (LGUs). This data analysis that I did is **meant to help** fellow Environmental Planners to get a glimpse of which areas would need for their plans to be updated. While I did not make a data viz for the names of the municipalities, I hope the numbers would help fellow Envi Planners to assist our communities in crafting their plans.
 
 I made a simple analysis that could hopefully help as a jumpstart for planners on which areas to help. Based on my analysis, there are still
 **1,302** cities and municipalities that would still need for the CLUPs to be updated as of <i>August 18, 2019</i>. On the other hand, there are **198** cities and municipalities who do not have CLUPs yet.
@@ -75,6 +75,8 @@ I made a dashboard to visualize which provinces need for their PPFPs to be updat
 
 I will not include the list of provinces and municipalities that needs to be updated. If you wanna see them, you may wish to visit the link that I posted.
 
-Wanna know how I did my analysis? Sure! Happy to share the [codes](https://github.com/osheanlee/data-analysis) that I used for my analysss. If you can improve the analysis, feel free to fork and send a pull request on my github account! :)
+If you are an Environmental Planner residing in the Philippines, please coordinate with your [Philippine Institute of Environmental Planners Chapter](https://www.piep.org.ph/) or Local Government Unit to assist them.
+
+Wanna know how I did my analysis? Sure! Happy to share the [codes](https://github.com/osheanlee/data-analysis/blob/master/PPFP_and_CLUP_Analysis.ipynb) that I used for my analyses. If you can improve this, feel free to fork and send a pull request on my github account! :)
 
 Bonus insight: Top 3 oldest CLUPs? 1st is in CAR Region, then top 2 is in Region VI, then top 3 is in CAR too.
