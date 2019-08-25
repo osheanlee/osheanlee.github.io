@@ -3,6 +3,8 @@ title = "About"
 date = "2019-08-24"
 featured = "oshean-profpic.jpg"
 featuredalt = "oshean-profpic"
+featuredpath = ""
+linktitle = ""
 +++
 
 I am a Mapper, Environmental Planner, and aspiring GeoData Scientist based in the Philippines. 
