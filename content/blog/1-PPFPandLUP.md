@@ -40,34 +40,6 @@ I made a simple analysis that could hopefully help as a jumpstart for planners o
 
 I also made a dashboard to visualize which provinces need for their PPFPs to be updated, and how many CLUPs would we need to update per province.
 
-<div class='tableauPlaceholder' id='viz1566750254152' style='position: relative'><noscript><a href='#'>
-
-<img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PP&#47;PPFPandCLUPforUpdating&#47;PPFPandCLUP&#47;1_rss.png' style='border: none' /></a></noscript>
-
-<object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-  <param name='embed_code_version' value='3' /> 
-  <param name='site_root' value='' />
-  <param name='name' value='PPFPandCLUPforUpdating&#47;PPFPandCLUP' />
-  <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PP&#47;PPFPandCLUPforUpdating&#47;PPFPandCLUP&#47;1.png' />
-  <param name='animate_transition' value='yes' />
-  <param name='display_static_image' value='yes' />
-  <param name='display_spinner' value='yes' />
-  <param name='display_overlay' value='yes' />
-  <param name='display_count' value='yes' /><param name='filter' value='publish=yes' />
-  </object>
-  </div>               
-  <script type='text/javascript'>                    
-    var divElement = document.getElementById('viz1566750254152');                    
-    var vizElement = divElement.getElementsByTagName('object')[0];                    
-    vizElement.style.minWidth='420px';
-    vizElement.style.maxWidth='650px';
-    vizElement.style.width='100%';
-    vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';
-    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-    var scriptElement = document.createElement('script');                    
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-  </script>
+<div class='tableauPlaceholder' id='viz1566751363857' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PP&#47;PPFPandCLUPforUpdating&#47;PPFPandCLUP&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PPFPandCLUPforUpdating&#47;PPFPandCLUP' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PP&#47;PPFPandCLUPforUpdating&#47;PPFPandCLUP&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1566751363857');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 Wanna know how I did my analysis? Sure! Happy to share the [codes](https://github.com/osheanlee/data-analysis) that I used for my analysis. If you can improve the analysis, feel free to fork and send a pull request on my github account! :)
