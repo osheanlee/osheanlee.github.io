@@ -1,9 +1,9 @@
 +++
 author = "Oshean Lee Garonita"
-categories = ["land use plans", "python"]
+categories = ["land use plans", "python", "tableau"]
 date = "2019-08-25"
 description = ""
-featured = "PPFP_CLUP.jpg"
+featured = "2019/08/PPFP_CLUP.jpg"
 featuredalt = "PPFP_CLUP"
 featuredpath = ""
 linktitle = ""
@@ -35,6 +35,8 @@ I got the data from HLURB's [website](http://www.hlurb.gov.ph/wp-content/uploads
 
 I made a simple analysis that could hopefully help as a jumpstart for planners on which areas to help. Based on my analysis, there are still
 **1,302** cities and municipalities that would still need for the CLUPs to be updated as of <i>August 18, 2019</i>. On the other hand, there are **198** cities and municipalities who do not have CLUPs yet.
+
+
 
 I also made a dashboard to visualize which provinces need for their PPFPs to be updated, and how many CLUPs would we need to update per province.
 
