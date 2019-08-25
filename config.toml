@@ -114,7 +114,7 @@ disableLanguages        = [""]
     weight            = 1
 
   [[menu.main]]
-    name              = "About"
+    name              = "Test"
     url               = "/about/"
     identifier        = "far fa-id-card"
     weight            = 2
@@ -264,6 +264,6 @@ disableLanguages        = [""]
   # Professional/Business Oriented Communities
   linkedin              = "/in/osheanleegaronita"
   # Social Networks
-  instagram             = "example"
+  instagram             = "oshkoshlee"
   # Email
   email                 = "osheanleegaronita@gmail.com"
