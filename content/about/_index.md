@@ -3,7 +3,7 @@ title = "About"
 date = "2019-08-24"
 +++
 
-<img src='img/main/oshean-profpic.jpg'></img>
+<img src='/img/main/oshean-profpic.jpg'></img>
 
 I am a Mapper, Environmental Planner, and aspiring GeoData Scientist based in the Philippines. 
 
