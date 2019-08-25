@@ -10,14 +10,17 @@ My interests are maps, urban plans, volunteerism, conservation work, and data sc
 ## Before & Now
 
 Before:
+
 * Planning Officer for a [government agency](https://mmda.gov.ph)
 * Consultant (Urban Planner) for a [CGIAR](https://worldagroforestry.org/) institution
 * Youth volunteer for a [government agency](https://nyc.gov.ph)
 * GIS Specialist for a [foundation](https://reid.ph)
 * GIS Mapping Specialist for a planning consultancy firm
+* Lecturer for a [university](https://pwu.edu.ph) in Manila
 * GIS Officer for a [non-government organization](https://haribon.org.ph/)
 
 Now:
+
 * Geospatial Analyst for a [Data Science startup](https://thinkingmachin.es)
 * Seasonal lecturer for review institutions for the annual Philippine Environmental Planning licensure exam
 * Volunteer for the same NGO where I used to be its GIS Officer
