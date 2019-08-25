@@ -58,7 +58,7 @@ disableLanguages        = [""]
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "The Gist"
-    paragraph             = "Being on-point with Oshean Lee Garonita. <br> Mapper | Envi Planner </br>"
+    paragraph             = "On-point with Oshean Lee Garonita. <br> Mapper | Envi Planner </br>"
     rssIntro              = true
     socialIntro           = true
 
@@ -114,7 +114,7 @@ disableLanguages        = [""]
     weight            = 1
 
   [[menu.main]]
-    name              = "Test"
+    name              = "About"
     url               = "/about/"
     identifier        = "far fa-id-card"
     weight            = 2
