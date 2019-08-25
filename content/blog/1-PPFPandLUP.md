@@ -3,7 +3,7 @@ author = "Oshean Lee Garonita"
 categories = ["land use plans", "python"]
 date = "2019-08-25"
 description = ""
-featured = "static\img\2019\08\PPFP_CLUP.jpg"
+featured = "PPFP_CLUP.jpg"
 featuredalt = "PPFP_CLUP"
 featuredpath = ""
 linktitle = ""
@@ -27,7 +27,7 @@ No.
 Plans are already being used even before so that we could try to improve the lives of other people. One plan that could help us on this is
 having a <u>Land Use Plan</u>. A lot of countries practice having these plans in their respective jurisdictions, including of course the Philippines. In fact, some [laws](http://hlurb.gov.ph/law-issuances/land-use-planning/) already mandate that all cities and municipalities should have a Comprehensive Land Use Plan (CLUP) while provinces should have a Provincial Physical Framework Plan (PPFP), and that they should be updated after a specified timeframe or life cycle (usually 10 years for CLUP and greater for PPFPs). But are all of these updated? And for Environmental Planners (EnPs), maybe we could help some communities who do not have yet!
 
-## Analyzing the PPFP and CLUP Data
+## Analysis
 
 I made a simple analysis that could hopefully help as a jumpstart for planners on which areas to help. Based on my analysis, there are still
 <b>1,302</b> cities and municipalities that would still need for the CLUPs to be updated as of <i>August 18, 2019</i>. On the other hand, there are <b>198</b> cities and municipalities who do not have CLUPs yet.
