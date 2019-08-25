@@ -17,15 +17,14 @@ type = "post"
 
 ## Plans are powerful
 
-On a personal level, we make plans for things that we want to achieve. It could be listing down our to-do list for the day, or writing
+We make plans for things that we want to achieve. It could be listing down our to-do list for the day, or writing
 grocery list, or even just a simple reminder could be a plan. Plans give us a sense of purpose as to what we want to do in the future.
 
-But let us try scaling it up. Are plans always personal?
+But let us try scaling it up. Have you ever wondered how our houses were made? Okay, we have architects and engineers for that; and yes! They also make plans before building stuff. But what about a community? Are plans needed to make a community?
 
-Of course not.
+If your answer is yes, then you're on the right track. If your answer is a no, then hope you learn something new! :)
 
-Plans are already being used even before so that we could try to improve the lives of other people. One plan that could help us on this is
-having a <u>Land Use Plan</u>. A lot of countries practice having these plans in their respective jurisdictions, including of course the Philippines. In fact, some [laws](http://hlurb.gov.ph/law-issuances/land-use-planning/) already mandate that all cities and municipalities should have a Comprehensive Land Use Plan (CLUP) while provinces should have a Provincial Physical Framework Plan (PPFP), and that they should be updated after a specified timeframe or life cycle (usually 10 years for CLUP and greater for PPFPs). But are all of these updated? And for Environmental Planners (EnPs), maybe we could help some communities who do not have yet!
+Plans are already being used even before so that we could try to improve the lives of other people. In a community level, one plan that could help us on this is having a <u>Land Use Plan</u>. A lot of countries already practice having these plans in their respective jurisdictions, including our own Philippines. In fact, some Philippine [laws](http://hlurb.gov.ph/law-issuances/land-use-planning/) already mandate that all cities and municipalities should have a Comprehensive Land Use Plan (CLUP) while provinces should have a Provincial Physical Framework Plan (PPFP), and that they should be updated after a specified timeframe or life cycle (usually 10 years for CLUP and greater for PPFPs). But are all of these updated? And for Environmental Planners (EnPs), maybe we could help some communities who do not have yet!
 
 ## Analyzing the Data
 
