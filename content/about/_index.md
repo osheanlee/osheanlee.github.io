@@ -31,3 +31,9 @@ Now:
 **The contents of this site do not reflect the opinion of my employer.**
 
 More info can be seen on my [LinkedIn](https://linkedin.com/in/osheanleegaronita)!
+
+Some credits that are noteworthy:
+
+* [JT Miclat](https://jtmiclat.me), colleague from [Thinking Machines](https://thinkingmachin.es). He helped linking my github pages to netlify and setting up Hugo
+* [Ito Valdes](https://www.linkedin.com/in/benito-valdes-9899aa112/) for `The Gist` branding.
+
