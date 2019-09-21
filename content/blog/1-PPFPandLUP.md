@@ -1,7 +1,7 @@
 +++
 author = "Oshean Lee Garonita"
-categories = ["forests", "python", "environment"]
-date = "2019-09-20"
+categories = ["environment", "python", "environment"]
+date = "2019-08-20"
 description = ""
 featured = "2019/08/PPFP_CLUP.jpg"
 featuredalt = "PPFP_CLUP"

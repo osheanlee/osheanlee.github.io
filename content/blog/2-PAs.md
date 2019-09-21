@@ -1,6 +1,6 @@
 +++
 author = "Oshean Lee Garonita"
-categories = ["environment", "python", "earth"]
+categories = ["forests", "python", "earth"]
 date = "2019-09-22"
 description = ""
 featured = "2019/09/Selangor_Malaysia.jpg"
