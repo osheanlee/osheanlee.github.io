@@ -1,4 +1,4 @@
-baseURL                 = "https://oshean.netlify.com"
+baseurl                 = "/"
 DefaultContentLanguage  = "en"
 title                   = "Oshean Lee Garonita | Mapper | Environmental Planner"
 theme                   = "hugo-future-imperfect-slim"
