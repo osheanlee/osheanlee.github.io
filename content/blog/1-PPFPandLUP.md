@@ -1,13 +1,13 @@
 +++
 author = "Oshean Lee Garonita"
-categories = ["land use plans", "python", "tableau"]
-date = "2019-08-25"
+categories = ["forests", "python", "environment"]
+date = "2019-09-20"
 description = ""
 featured = "2019/08/PPFP_CLUP.jpg"
 featuredalt = "PPFP_CLUP"
 featuredpath = ""
 linktitle = ""
-title = "On Physical Framework and Land Use Plans: Let's Bridge the Gap!"
+title = "Why we need to #ChooseTheEarth"
 type = "post"
 
 +++
@@ -76,6 +76,6 @@ I will not include the list of provinces and municipalities that needs to be upd
 
 If you are an Environmental Planner residing in the Philippines, please coordinate with your [Philippine Institute of Environmental Planners Chapter](https://www.piep.org.ph/) or Local Government Unit to assist them.
 
-Wanna know how I did my analysis? Sure! Happy to share the [codes](https://github.com/osheanlee/data-analysis/blob/master/PPFP_and_CLUP_Analysis.ipynb) that I used for my analyses. If you can improve this, feel free to fork and send a pull request on my github account! :)
+Wanna know how I did my analysis? Sure! Happy to share the [code](https://github.com/osheanlee/data-analysis/blob/master/PPFP_and_CLUP_Analysis.ipynb) that I used for my analyses. If you can improve this, feel free to fork and send a pull request on my github account! :)
 
 Bonus insight: Top 3 oldest CLUPs? 1st is in CAR Region, then top 2 is in Region VI, then top 3 is in CAR too.
