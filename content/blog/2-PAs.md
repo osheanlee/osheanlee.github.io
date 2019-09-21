@@ -43,5 +43,3 @@ In 1992, the Philippines passed the **National Integrated Protected Areas System
 I will not discuss the other requirements. But if you are interested to see the full law, click [here](https://www.lawphil.net/statutes/repacts/ra1992/ra_7586_1992.html).
 
 These protected areas can be both marine and terrestrial
-
-l;kefjwalfnwalfmwelfmewlfmewlfemlewkoeSDSvSD
