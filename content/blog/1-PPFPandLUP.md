@@ -7,7 +7,7 @@ featured = "2019/08/PPFP_CLUP.jpg"
 featuredalt = "PPFP_CLUP"
 featuredpath = ""
 linktitle = ""
-title = "Why we need to #ChooseTheEarth"
+title = "On Physical Framework and Land Use Plans: Let's Bridge the Gap!"
 type = "post"
 
 +++
