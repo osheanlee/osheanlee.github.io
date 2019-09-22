@@ -7,7 +7,7 @@ featured = "2019/09/Selangor_Malaysia.jpg"
 featuredalt = "Selangor_Malaysia"
 featuredpath = ""
 linktitle = ""
-title = "Why We Need to #ChooseTheEarth"
+title = "Why We Need to Choose The Earth"
 type = "post"
 
 +++
@@ -23,7 +23,7 @@ I came to college with only a glimpse of what I was about to study: Human Ecolog
 
 My eyes became open to the most crucial element that our world has: our environment. For the past 12 years I’ve heard stories from the ground on how there is social and environmental injustice occurring especially on Indigenous People communities. These people are the [best stewards](https://www.yaleclimateconnections.org/2019/03/wri-researcher-indigenous-people-are-best-forest-stewards) of our environment. They ensure that our natural resources would always be available to us; however, there are some industries that heavily exploit these without undergoing legal processes. And in the end, these IPs would lose their homes with tampered culture and way of life.
 
-For so many years, our forest resources are dwindling. As of 2015, we only have [23.38%](http://forestry.denr.gov.ph/index.php/statistics/philippines-forestry-statistics) of our forest cover compared to 1960s when it was still at [50%](http://ree.ph/loss-of-biodiversity/). This is alarming as it could have negative potential impacts to other living organisms depending on it.
+For so many years, our forest resources are dwindling. As of 2015, we only have [23.38%](http://forestry.denr.gov.ph/index.php/statistics/philippines-forestry-statistics) of our forest cover compared to 1960s when it was still at [50%](http://ree.ph/qloss-of-biodiversity/). This is alarming as it could have negative potential impacts to other living organisms depending on it.
 
 <center>
   <a href="https://ibb.co/Q9k9PWM"><img src="https://i.ibb.co/Tc1c4Qt/Historical-Deforesation-Philippines.png" alt="Historical-Deforesation-Philippines" border="0"></a>
