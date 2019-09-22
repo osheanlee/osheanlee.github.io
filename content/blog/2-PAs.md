@@ -127,7 +127,7 @@ Can you guess where this is?
 	<a href="https://imgbb.com/"><img src="https://i.ibb.co/QYgyChz/PA-analysis-20-1.png" alt="PA-analysis-20-1" border="0"></a>
 </center>	
 
-### 3.) 3.) What is the smallest Protected Area?
+### 3.) What is the smallest Protected Area?
 
 ```python
 gdf_pa['area_sqm'].min()
