@@ -43,4 +43,27 @@ In 1992, the Philippines passed the **National Integrated Protected Areas System
 
 I will not discuss the other requirements. But if you are interested to see the full law, click [here](https://www.lawphil.net/statutes/repacts/ra1992/ra_7586_1992.html).
 
-These protected areas can be both marine and terrestrial
+### A closer look at the Philippines' Protected Areas
+
+Getting data from [PhilGIS]('http://philgis.org/general-country-datasets/protected-areas'), we can do some Exploratory Data Analysis (EDA) to learn more about our PAs. Again, I cannot guarantee the accuracy of this data. If we still want the most authoritative data, please refer to the Biodiversity Management Bureau of the Department of Environment and Natural Resources.
+
+We will first import the necessary python modules:
+
+python```
+import pandas as pd
+import geopandas as gp
+import matplotlib.pyplot as plt
+from seaborn import palplot
+import palettable as pltt
+import folium
+import numpy as np
+from matplotlib.widgets import Cursor
+```
+
+#### Data Cleaning
+
+python```
+# Load geodata
+# Better practice is to re-project files in your GIS software (just to make things easier)
+gdf_pa = gp.read_file('D:\GIS Database\From PhilGIS\Protected Areas\ProtectedAreas_PRS92_Zone4.gpkg')
+gdf_phl = gp.read_file('D:\GIS Database\PH Boundaries from OCHA (PSA and NAMRIA)\PH-Barangay_Boundaries_PRS92_Zone4.gpkg')
