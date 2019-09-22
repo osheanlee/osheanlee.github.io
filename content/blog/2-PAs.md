@@ -74,5 +74,5 @@ gdf_pa.plot()
 ```
 
 <center>
-	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_3_1.png" border="1">
+	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_3_1.png" border="0">
 </center>
