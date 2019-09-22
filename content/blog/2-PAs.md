@@ -78,7 +78,7 @@ Seems that we have a problem in our PA dataset, so I opened it in QGIS and found
 gdf_pa['wdpaid'].loc[gdf_pa['wdpaid'] == 305980]
 ```
 
-Using the code above, we were able to determine the index number of the row that we want to remove, which is **252**
+Using the code above, we were able to determine the index number of the row that we want to remove, which is **252**.
 
 ```python
 gdf_pa = gdf_pa.drop(252)
