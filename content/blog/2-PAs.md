@@ -67,9 +67,6 @@ from matplotlib.widgets import Cursor
 # Better practice is to re-project files in your GIS software (just to make things easier)
 gdf_pa = gp.read_file(insert_directory_here)
 gdf_phl = gp.read_file(insert_directory_here)
-```
-
-```python
 gdf_pa.plot()
 ```
 
