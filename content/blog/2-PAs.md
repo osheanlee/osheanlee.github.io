@@ -73,5 +73,6 @@ gdf_phl = gp.read_file(insert_directory_here)
 gdf_pa.plot()
 ```
 
-![alt_text][figure_1]
-figure_1 = "https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_3_1.png"
+<center>
+	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_3_1.png" border="1">
+</center>
