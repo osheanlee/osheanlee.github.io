@@ -27,7 +27,8 @@ For so many years, our forest resources are dwindling. As of 2015, we only have 
 
 <center>
   <a href="https://ibb.co/Q9k9PWM"><img src="https://i.ibb.co/Tc1c4Qt/Historical-Deforesation-Philippines.png" alt="Historical-Deforesation-Philippines" border="0"></a>
-  <i> Forest loss incurred from 1950s up to present. Source: <a href="http://ree.ph/loss-of-biodiversity/"> Coral Triangle Conservancy, Inc. </a> </i>
+
+  _Forest loss incurred from 1950s up to present. Source: [Coral Triangle Conservancy, Inc.](http://ree.ph/loss-of-biodiversity)_
 </center>
 
 
