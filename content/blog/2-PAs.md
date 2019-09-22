@@ -69,7 +69,7 @@ gdf_pa.plot()
 ```
 
 <center>
-	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_3_1.png">
+	<a href="https://imgbb.com/"><img src="https://i.ibb.co/BrRyDrn/PA-analysis-3-1.png" alt="PA-analysis-3-1" border="0"></a>
 </center>
 
 Seems that we have a problem in our PA dataset, so I opened it in QGIS and found out that `wdpaid = 305980` is the "outlier". Since the data is opensource, I don't like to determine anymore if where in Philippines should this PA be located. I'll just drop it. (Don't try this when you are working with your work datasets! This is just for practice purposes.
@@ -90,7 +90,7 @@ To check the outlier if it's still there, we plot it again.
 gdf_pa.plot()
 ```
 <center>
-	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_7_1.png">
+	<a href="https://imgbb.com/"><img src="https://i.ibb.co/kGkdZPr/PA-analysis-7-1.png" alt="PA-analysis-7-1" border="0"></a>
 </center>
 
 ## Data Dive (Deeper)
@@ -106,7 +106,7 @@ gdf_phl['area_sqm'] = gdf_phl['geometry'].area
 gdf_pa_dissolve['area_sqm']/sum(gdf_phl['area_sqm']) * 100
 ```
 
-Running the code above will tell us that **19% of the Philippines' land area are our protected areas. It seems really low! How I wish the government could identify more proteced areas.
+Running the code above will tell us that **19% of the Philippines** land area are our protected areas. It seems really low! How I wish the government could identify more proteced areas.
 
 ### 2.) What is the largest Protected Area (in terms of land area)?
 
@@ -124,7 +124,7 @@ gdf_pa.loc[gdf_pa['area_sqm'] == 11842628138.924446].plot()
 Can you guess where this is? 
 
 <center>
-	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_20_1.png">
+	<a href="https://imgbb.com/"><img src="https://i.ibb.co/QYgyChz/PA-analysis-20-1.png" alt="PA-analysis-20-1" border="0"></a>
 </center>	
 
 ### 3.) 3.) What is the smallest Protected Area?
@@ -141,7 +141,7 @@ gdf_pa.loc[gdf_pa['area_sqm'] == 13613.293737011954].plot()
 
 This one's hard to guess, so the name of this PA is **Binlanan** (weirdly) located inside the Tanon Strait in Cebu.
 <center>
-	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_24_1.png">
+	<a href="https://imgbb.com/"><img src="https://i.ibb.co/Lrs1KPJ/PA-analysis-24-1.png" alt="PA-analysis-24-1" border="0"></a>
 </center>
 
 ### 4. Information on our PA Designations
@@ -202,7 +202,7 @@ sns.barplot(x="Count", y="Designation Type", data=desig_eng_bar,
 ```
 
 <center>
-	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_bar_chart.png" border="0">
+	<a href="https://ibb.co/Cs8njQS"><img src="https://i.ibb.co/fGFC3HT/PA-analysis-bar-chart.png" alt="PA-analysis-bar-chart" border="0"></a>
 </center>
 
 Based on our chart above, we can say that we have a lot of Marine Sanctuaries in the Philippines. And we also have a lot of designated Watershed Forest Reserve!
