@@ -73,6 +73,5 @@ gdf_phl = gp.read_file(insert_directory_here)
 gdf_pa.plot()
 ```
 
-figure_1 = "2019/09/PA_anlysis_3_1.png"
-
 ![alt_text][figure_1]
+figure_1 = 2019/09/PA_anlysis_3_1.png
