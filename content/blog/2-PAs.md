@@ -189,7 +189,6 @@ array(['Natural Park', 'National Park', 'UNESCO-MAB Biosphere Reserve',
 We are curious if which among these have the most number of PAs. Let us put it in a chart!
 
 ```python
-
 desig_eng_bar = gdf_pa['desig_eng'].value_counts().to_frame().reset_index()
 desig_eng_bar.rename({'index': 'Designation Type', 'desig_eng': 'Count'}, axis=1, inplace=True)
 
@@ -208,3 +207,47 @@ sns.barplot(x="Count", y="Designation Type", data=desig_eng_bar,
 Based on our chart above, we can say that we have a lot of Marine Sanctuaries in the Philippines. And we also have a lot of designated Watershed Forest Reserve!
 
 Speaking of watershed, the Sustainable Forest Management Bill is currently filed in the legislative branch of the Philippine Government. I personally encourage everyone who's reading this to support the bill as it will provide a comprehensive watershed management system for all the watersheds in our country! To give support, you may contact [Haribon Foundation](https://haribon.org.ph).
+
+### 5. Where are the Protected Areas Most Located?
+
+I made a nifty tableau map (again! Because I love Tableau!) to show where most of the PAs are located. Can you guess where?
+
+<div class='tableauPlaceholder' id='viz1569148695258' style='position: relative'>
+	<noscript>
+		<a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProtectedAreas-Philippines&#47;DensityofProtectedAreasinthePhilippines&#47;1_rss.png' style='border: none' />
+		</a>
+	</noscript>
+		<object class='tableauViz'  style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+			<param name='embed_code_version' value='3' />
+			<param name='site_root' value='' />
+			<param name='name' value='ProtectedAreas-Philippines&#47;DensityofProtectedAreasinthePhilippines' />
+			<param name='tabs' value='no' />
+			<param name='toolbar' value='yes' />
+			<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProtectedAreas-Philippines&#47;DensityofProtectedAreasinthePhilippines&#47;1.png' />
+			<param name='animate_transition' value='yes' />
+			<param name='display_static_image' value='yes' />
+			<param name='display_spinner' value='yes' />
+			<param name='display_overlay' value='yes' />
+			<param name='display_count' value='yes' />
+		</object>
+	</div>  
+
+<script type='text/javascript'>                   
+	var divElement = document.getElementById('viz1569148695258');
+	var vizElement = divElement.getElementsByTagName('object')[0];
+		vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+	var scriptElement = document.createElement('script');                    
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
+
+## In Summary
+
+Given that we only have ~more or less~ 20% of our forest areas, we must act! Even the simplest ways will help our country to sustain itself and provide natural resources for us without compromising the needs of the future generation.
+
+Here are some ways on how you can help:
+
+..* **Volunteerism!** There are a lot of NGOs working for us to have a better environment. I would really recommend **Haribon Foundation** if you want to do some tree planting activities. Or if you love maps just like me, volunteer at [OpenStreetMap Philippines](https://fb.com/OSMPH) whenever they host Mapathons! Recently, I started to pledge to myself that I should join more on OSM-PH's Mapathons because I heavily rely on their data, so I guess it is just a matter of giving back.
+..* **Practice zero waste!** This one is a bit tricky/hard. I know that we live in a life of convenience, and it would be really hard to change. But change does not happen overnight. I admit that even myself sometimes cannot still reduce my use of plastics, but **promise** I do my best! You can start on the small things, such as rejecting straws and bringing your own mug.
+..* **Be informed of our environmental policies** a good citizen knows what's happening in our country, so it would be best that we read existing laws and bills currently filed in our legislative branch. **Do not be that troll on social media who spouts nonsense. Practice critical thinking!**
