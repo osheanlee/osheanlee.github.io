@@ -141,7 +141,7 @@ gdf_pa.loc[gdf_pa['area_sqm'] == 13613.293737011954].plot()
 
 This one's hard to guess, so the name of this PA is **Binlanan** (weirdly) located inside the Tanon Strait in Cebu.
 <center>
-	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_20_1.png" border="0">
+	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_24_1.png" border="0">
 </center>
 
 ### 4. Information on our PA Designations
@@ -152,3 +152,59 @@ The dataset also contains the kind of PA designation, if an area is a *National 
 gdf_pa['desig_eng'].nunique()
 ```
 
+```python
+gdf_pa['desig_eng'].unique()
+```
+
+The code above produces an array of the values inside the `desig_eng` column:
+
+```python
+array(['Natural Park', 'National Park', 'UNESCO-MAB Biosphere Reserve',
+       'Protected Landscape/Seascape', 'Natural Monument',
+       'Watershed Forest Reserve', 'Natural Biotic Area',
+       'Protected Landscape', 'Natural Monument - Buffer Zone',
+       'Game Refuge', 'Wilderness Area', 'Wilderness Sanctuary',
+       'Game Refuge and Bird Sanctuary', 'National Marine Park',
+       'Sanctuary', 'Marine Reserve', 'World Heritage Site',
+       'Managed Natural Resource and Protected Area',
+       'Wetlands of International Importance (Ramsar)',
+       'Protected Seascape', 'Marine Sanctuary',
+       'Marine Reserve with Fish Sanctuary', 'Fish Sanctuary',
+       'Marine Park and Sanctuary', 'Fishery Refuge and Sanctuary',
+       'Seagrass and Fish Sanctuary', 'Protected Landscape - Buffer Zone',
+       'Marine Fish Sanctuary', 'Restricted Area', 'Seagrass Sanctuary',
+       'Marine Park', 'Fish sanctuary', 'Reserve',
+       'Marine Refuge and Sanctuary', 'Marine Santuary',
+       'Marine Sanctuary and Reservation Area', 'Fiah Sanctuary',
+       'Marine Sancturay', 'Resource Reserve',
+       'Protected Landscape/Seascape - Buffer Zone',
+       'Mangrove Forest Reserve', 'Natural Biotic Area - Buffer Zone',
+       'Resource Reserve - Buffer Zone', 'Natural Park - Buffer Zone',
+       'National Park - Buffer Zone',
+       'Watershed Forest Reserve - Buffer Zone',
+       'Collaborative Fishery Management Area', 'ASEAN Heritage',
+       'Marine Protected Area'], dtype=object)
+```
+
+We are curious if which among these have the most number of PAs. Let us put it in a chart!
+
+```python
+
+desig_eng_bar = gdf_pa['desig_eng'].value_counts().to_frame().reset_index()
+desig_eng_bar.rename({'index': 'Designation Type', 'desig_eng': 'Count'}, axis=1, inplace=True)
+
+sns.set(style="whitegrid")
+f, ax = plt.subplots(figsize=(6,15))
+
+sns.set_color_codes("pastel")
+sns.barplot(x="Count", y="Designation Type", data=desig_eng_bar,
+            label="Number of PAs", color="b")
+```
+
+<center>
+	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_bar_chart.png" border="0">
+</center>
+
+Based on our chart above, we can say that we have a lot of Marine Sanctuaries in the Philippines. And we also have a lot of designated Watershed Forest Reserve!
+
+Speaking of watershed, the Sustainable Forest Management Bill is currently filed in the legislative branch of the Philippine Government. I personally encourage everyone who's reading this to support the bill as it will provide a comprehensive watershed management system for all the watersheds in our country! To give support, you may contact [Haribon Foundation](https://haribon.org.ph).
