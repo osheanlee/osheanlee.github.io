@@ -188,6 +188,8 @@ array(['Natural Park', 'National Park', 'UNESCO-MAB Biosphere Reserve',
 
 We are curious if which among these have the most number of PAs. Let us put it in a chart!
 
+<center><h5><b> Number of Protected Areas per Designation </b></h5></center>
+
 ```python
 desig_eng_bar = gdf_pa['desig_eng'].value_counts().to_frame().reset_index()
 desig_eng_bar.rename({'index': 'Designation Type', 'desig_eng': 'Count'}, axis=1, inplace=True)
