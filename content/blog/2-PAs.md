@@ -49,7 +49,7 @@ Getting data from [PhilGIS]('http://philgis.org/general-country-datasets/protect
 
 We will first import the necessary python modules:
 
-python```
+```python
 import pandas as pd
 import geopandas as gp
 import matplotlib.pyplot as plt
@@ -62,8 +62,9 @@ from matplotlib.widgets import Cursor
 
 #### Data Cleaning
 
-python```
+```python
 # Load geodata
 # Better practice is to re-project files in your GIS software (just to make things easier)
 gdf_pa = gp.read_file('D:\GIS Database\From PhilGIS\Protected Areas\ProtectedAreas_PRS92_Zone4.gpkg')
 gdf_phl = gp.read_file('D:\GIS Database\PH Boundaries from OCHA (PSA and NAMRIA)\PH-Barangay_Boundaries_PRS92_Zone4.gpkg')
+```
