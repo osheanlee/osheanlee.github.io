@@ -1,6 +1,6 @@
 +++
 author = "Oshean Lee Garonita"
-categories = ["forests", "python", "earth"]
+categories = ["forests", "python", "earth", "protected area"]
 date = "2019-09-22"
 description = ""
 featured = "2019/09/Selangor_Malaysia.jpg"
@@ -50,14 +50,12 @@ Getting data from [PhilGIS](http://philgis.org/general-country-datasets/protecte
 We will first import the necessary python modules:
 
 ```python
+# Import modules
 import pandas as pd
 import geopandas as gp
 import matplotlib.pyplot as plt
-from seaborn import palplot
-import palettable as pltt
-import folium
+import seaborn as sns
 import numpy as np
-from matplotlib.widgets import Cursor
 ```
 
 #### Data Cleaning
@@ -73,3 +71,84 @@ gdf_pa.plot()
 <center>
 	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_3_1.png" border="0">
 </center>
+
+Seems that we have a problem in our PA dataset, so I opened it in QGIS and found out that `wdpaid = 305980` is the "outlier". Since the data is opensource, I don't like to determine anymore if where in Philippines should this PA be located. I'll just drop it. (Don't try this when you are working with your work datasets! This is just for practice purposes.
+
+```python
+gdf_pa['wdpaid'].loc[gdf_pa['wdpaid'] == 305980]
+```
+
+Using the code above, we were able to determine the index number of the row that we want to remove, which is **252**
+
+```python
+gdf_pa = gdf_pa.drop(252)
+```
+
+To check the outlier if it's still there, we plot it again.
+
+```python
+gdf_pa.plot()
+```
+<center>
+	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_7_1.png" border="0">
+</center>
+
+## Data Dive (Deeper)
+
+### 1.) How many % land area are Protected Areas in the Philippines?
+
+It seems that some of the PAs are intersecting with each other. Our calculation will be wrong if we would compute for the area of our PAs per row as it will also compute the intersecting areas. To fix this, we will aggregate them via `dissolve`.
+
+```python
+gdf_pa_dissolve = gdf_pa.dissolve(by='country')
+gdf_pa_dissolve['area_sqm'] = gdf_pa_dissolve['geometry'].area
+gdf_phl['area_sqm'] = gdf_phl['geometry'].area
+gdf_pa_dissolve['area_sqm']/sum(gdf_phl['area_sqm']) * 100
+```
+
+Running the code above will tell us that **19% of the Philippines' land area are our protected areas. It seems really low! How I wish the government could identify more proteced areas.
+
+### 2.) What is the largest Protected Area (in terms of land area)?
+
+```python
+gdf_pa['area_sqm'] = gdf_pa['geometry'].area
+gdf_pa['area_sqm'].max()
+```
+
+The output of the code above gives us 11842628138.924446, so we just need to locate it:
+
+```python
+gdf_pa.loc[gdf_pa['area_sqm'] == 11842628138.924446].plot()
+```
+
+Can you guess where this is? 
+
+<center>
+	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_20_1.png" border="0">
+</center>	
+
+### 3.) 3.) What is the smallest Protected Area?
+
+```python
+gdf_pa['area_sqm'].min()
+```
+
+This results to 13613.293737011954, then again we locate it.
+
+```python
+gdf_pa.loc[gdf_pa['area_sqm'] == 13613.293737011954].plot()
+```
+
+This one's hard to guess, so the name of this PA is **Binlanan** (weirdly) located inside the Tanon Strait in Cebu.
+<center>
+	<img src="https://github.com/osheanlee/osheanlee.github.io/tree/master/static/img/2019/09/PA_analysis_20_1.png" border="0">
+</center>
+
+### 4. Information on our PA Designations
+
+The dataset also contains the kind of PA designation, if an area is a *National Park*, or a *Protected Landscape*, and so on. There are **49** designation types from our dataset.
+
+```python
+gdf_pa['desig_eng'].nunique()
+```
+
