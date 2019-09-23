@@ -17,6 +17,8 @@ type = "post"
 
 ## How It Started
 
+Let me start with a bit of a personal story.
+
 I was never a nature-lover, and I always took it for granted. Growing up, I’ve always assumed that the trees will always be there and that it never really gave too much significance since it was not moving, or that it does not have the same morphological features as other living things. Sure, we were taught that trees are important. They give oxygen, and we give carbon dioxide in return. I’ve always thought that we will never run out of it – not until I’ve seen things.
 
 I came to college with only a glimpse of what I was about to study: Human Ecology. Basically, the degree is a multi-disciplinary field that focuses on the relationship between humans and their environment. I took the degree because just like other Filipino high school kids, I want to study in UP, and I thought that Human Ecology would be an easy degree to enter UP and just shift to another degree. But apparently, it was not a mistake and taking the degree was life-changing! It’s like going down the unknown rabbit hole.
@@ -31,6 +33,7 @@ For so many years, our forest resources are dwindling. As of 2015, we only have 
   _Forest loss incurred from 1950s up to present. Source: [Coral Triangle Conservancy, Inc.](http://ree.ph/loss-of-biodiversity)_
 </center>
 
+Alarming, right? So what should we do? But before answering that, let us look at some (juicy) opensource data that we got from the web!
 
 ## Protected Areas: One of the Nation's Way to #ChooseTheEarth
 
@@ -252,3 +255,5 @@ Here are some ways on how you can help:
 * **Volunteerism!** There are a lot of NGOs working for us to have a better environment. I would really recommend **Haribon Foundation** if you want to do some tree planting activities. Or if you love maps just like me, volunteer at [OpenStreetMap Philippines](https://fb.com/OSMPH) whenever they host Mapathons! Recently, I started to pledge to myself that I should join more on OSM-PH's Mapathons because I heavily rely on their data, so I guess it is just a matter of giving back.
 * **Practice zero waste!** This one is a bit tricky/hard. I know that we live in a life of convenience, and it would be really hard to change. But change does not happen overnight. I admit that even myself sometimes cannot still reduce my use of plastics, but **promise** I do my best! You can start on the small things, such as rejecting straws and bringing your own mug.
 * **Be informed of our environmental policies**. A good citizen knows what's happening in our country, so it would be best that we read existing laws and bills currently filed in our legislative branch. **Do not be that troll on social media who spouts nonsense. Practice critical thinking!**
+
+**There is no Planet B. Let us #ChooseTheEarth.**
