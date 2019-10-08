@@ -22,8 +22,7 @@ Before proceeding, it is assumed that we have the following already:
 1.) Access to [Google Bigquery](https://cloud.google.com/bigquery/)
 2.) An account at the [USGS Earthexplorer](https://earthexplorer.usgs.gov)
 
-_____________________________________________________________________________________
-
+## EE-BDA (kind of) Sucks
 
 For most GIS people working on satellite imagery (like me), we would usually use the [Bulk Downloader Application](https://www.usgs.gov/media/images/earthexplorer-bulk-download-application-bda) for retrieval. While this is a good interface to download these stuff, I noticed that the download rate from here is really slow. This would be a bit of a blocker if we need lots of satellite imagery. Fortunately, the company where I am working right now uses [Google BigQuery](https://stories.thinkingmachin.es/coding-safely-in-the-cloud/) as its data warehouse. And another cool feature that it has? BQ has a [Public Dataset](https://cloud.google.com/bigquery/public-data/)! And public dataset means*FREE DATA* including *FREE* satellite imagery.
 
