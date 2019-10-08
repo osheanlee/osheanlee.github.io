@@ -30,7 +30,7 @@ So the next question is: how do we access these free data?
 
 ## EarthExplorer.USGS + BigQuery = Powerrrrrrr
 
-The EarthExplorer will be your friend if you want to look for a specific satellite imagery. You need to get the `ID/s` of the imagery that you wish to download. The ID format should look something like this: ` LC08_L1TP_113056_20150715_20170407_01_T1`
+The EarthExplorer will be your friend if you want to look for a specific satellite imagery. You need to get the `ID/s` of the imagery that you wish to download. The ID format should look something like this: LC08_L1TP_113056_20150715_20170407_01_T1
 
 <iframe src="https://giphy.com/embed/hWjOWQLpmwLl1KYbut" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/usgs-hWjOWQLpmwLl1KYbut">via GIPHY</a></p>
 
