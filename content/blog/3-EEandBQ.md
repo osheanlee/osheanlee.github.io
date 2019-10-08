@@ -7,7 +7,7 @@ featured = "2019/09/Selangor_Malaysia.jpg"
 featuredalt = "Selangor_Malaysia"
 featuredpath = ""
 linktitle = ""
-title = "Accessing LandSat and Sentinel Imagery via GCP Public Dataset"
+title = "Accessing Free Satellite Imagery via GCP Public Dataset"
 type = "post"
 
 +++
