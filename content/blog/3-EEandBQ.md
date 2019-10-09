@@ -35,7 +35,7 @@ The EarthExplorer will still be your friend if you want to look for a specific s
 
 Navigate through EarthExplorer:
 
-<center></center><iframe src="https://giphy.com/embed/hWjOWQLpmwLl1KYbut" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/usgs-hWjOWQLpmwLl1KYbut">via GIPHY</a></p></center>
+<center><iframe src="https://giphy.com/embed/hWjOWQLpmwLl1KYbut" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
 
 Once you have searched for your desired data (using EE's filters and all), list down all of the IDs that you wish to download in BQ. When done, open your BQ and run a simple SQL code:
 
