@@ -1,7 +1,7 @@
 +++
 author = "Oshean Lee Garonita"
 categories = ["bigquery", "gcp", "landsat"]
-date = "2019-10-20"
+date = "2019-10-08"
 description = ""
 featured = "2019/09/Selangor_Malaysia.jpg"
 featuredalt = "Selangor_Malaysia"
