@@ -1,7 +1,7 @@
 +++
 author = "Oshean Lee Garonita"
-categories = ["bigquery", "gcp", "landsat"]
-date = "2019-10-09"
+categories = ["bigquery", "google cloud platform", "landsat", "command line"]
+date = "2019-10-08"
 description = ""
 featured = "2019/10/MM_90deg.jpg"
 featuredalt = "Metro_Manila_2015"
@@ -21,6 +21,7 @@ Before proceeding, it is assumed that we have the following already:
 
 1. Access to [Google Bigquery](https://cloud.google.com/bigquery/)
 2. An account at the [USGS Earthexplorer](https://earthexplorer.usgs.gov)
+3. Google Cloud SDK Shell
 
 ## The Problem with EE-Bulk Downloader Application
 
@@ -55,4 +56,12 @@ WHERE
     )
 ```
 
-The elements inside `product_id IN()` are the IDs. Once done, donwload your table as a csv. On
+The elements inside `product_id IN()` are the IDs. If you wish to download only one imagery, just change `product IN (...)` to `product_id = image_id_of_your_choice.`
+
+Once done, donwload your table as a csv. We are actually only interested with the `base_url` column from our BQ table. Copy the contents of the `base_url` column and put them in a notepad.
+
+## Using the Google Cloud SDK
+
+Open your Google Cloud SDK Shell, and once you are in the terminal, enter the command `type C:\<directory where the notepad.txt is> | gsutil -m cp -r -I <directory where you want to save the files`.
+
+And...that's it! Just wait for the download to finish, but you will notice that it is a lot faster than using the EarthExplorer Bulk Downloader.
