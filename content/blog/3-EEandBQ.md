@@ -1,10 +1,10 @@
 +++
 author = "Oshean Lee Garonita"
 categories = ["bigquery", "gcp", "landsat"]
-date = "2019-10-08"
+date = "2019-10-09"
 description = ""
-featured = "2019/09/Selangor_Malaysia.jpg"
-featuredalt = "Selangor_Malaysia"
+featured = "2019/10/MM_90deg.jpg"
+featuredalt = "Metro_Manila_2015"
 featuredpath = ""
 linktitle = ""
 title = "Accessing Free Satellite Imagery via GCP Public Dataset"
@@ -50,22 +50,7 @@ WHERE
     'LC08_L1TP_115053_20150830_20170405_01_T1',
     'LC08_L1TP_112054_20150825_20170405_01_T1',
     'LC08_L1TP_116050_20151024_20180205_01_T1',
-    'LC08_L1TP_116049_20151024_20180205_01_T1',
-    'LC08_L1TP_117048_20151031_20170402_01_T1',
-    'LC08_L1TP_116048_20151109_20170402_01_T1',
-    'LC08_L1TP_117049_20151116_20170402_01_T1',
-    'LC08_L1TP_117048_20151116_20170402_01_T1',
-    'LC08_L1TP_117047_20151116_20170402_01_T1',
-    'LC08_L1TP_118054_20151123_20170401_01_T1',
-    'LC08_L1TP_117050_20151202_20170401_01_T1',
-    'LC08_L1TP_117049_20151202_20170401_01_T1',
-    'LC08_L1TP_117048_20151202_20170401_01_T1',
-    'LC08_L1TP_114056_20151213_20170401_01_T1',
-    'LC08_L1TP_114055_20151213_20170401_01_T1',
-    'LC08_L1TP_116055_20151227_20170331_01_T2',
-    'LC08_L1GT_116054_20151227_20170331_01_T2',
-    'LC08_L1TP_116052_20151227_20170331_01_T1',
-    'LC08_L1TP_116049_20151227_20170331_01_T1',
-    'LC08_L1TP_116048_20151227_20170331_01_T1')
+    )
 ```
 
+The elements inside `product_id IN()` are the IDs, Once done, donwload your table as a csv. Convert it into 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Oshean Lee Garonita | Mapper | Environmental Planner</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Oshean Lee Garonita | Mapper | Environmental Planner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 22 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>earth</title>
+      <link>/categories/earth/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/earth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forests</title>
+      <link>/categories/forests/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/forests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>protected area</title>
+      <link>/categories/protected-area/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/protected-area/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/categories/python/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>environment</title>
+      <link>/categories/environment/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/environment/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
