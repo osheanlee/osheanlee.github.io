@@ -64,4 +64,4 @@ Once done, donwload your table as a csv. We are actually only interested with th
 
 Open your Google Cloud SDK Shell, and once you are in the terminal, enter the command `type C:\<directory where the notepad.txt is> | gsutil -m cp -r -I <directory where you want to save the files`.
 
-And...that's it! Just wait for the download to finish, but you will notice that it is a lot faster than using the EarthExplorer Bulk Downloader.
+And...that's it! Just wait for the download to finish, and you will notice that it is a lot faster than using the EarthExplorer Bulk Downloader.
