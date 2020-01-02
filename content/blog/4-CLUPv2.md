@@ -80,8 +80,14 @@ But to summarize the steps on further cleaning the excel file:
 
 4. Oof but wait, we're not done yet because we still had to clean the Metro Manila dataset. This one's a bit easier already because we're only dealing with 17 LGUs. But basically I used the barangay dataset of Metro Manila that I got years ago, and had to dissolve them into city/municipality level, replaced the districts of Metro Manila to `CITY OF MANILA`. Once done, I merged the Metro Manila dataframe with its geodataframe counterpart.
 
-5. Now that the Metro Manila and the rest of the Philippines datasets are clean already, I concatenated these 2 using `pd.concat`. Pandas is such a powerful python library. I think I can't live without it already. Then I just saved the concatenated files into a shapefile!
+5. Now that the Metro Manila and the rest of the Philippines datasets are clean already, I concatenated these 2 using `pd.concat`. (Pandas is such a powerful python library. I think I can't live without it already.) Then I just saved the concatenated files into a shapefile!
 
 Once I'm done with the dataset, I loaded them to Tableau. For the dashboard, I chose two (2) charts: 1.) Categorical Map and 2.) Stacked Bar Charts. I just made a few interactions for the two especially on the click-and-action stuff so that it would be easier for those who will use.
 
 ## Some Fresh New EDAs
+
+### 1. The provinces of Maguindanao and Lanao Del Sur have the most number of cities and municipalities who do not have CLUPs yet.
+
+<a href="https://ibb.co/3MbstXg"><img src="https://i.ibb.co/0FLXPNH/EDA-For-Formulation-per-Province.jpg" alt="EDA-For-Formulation-per-Province" border="0"></a>
+
+It might be unfair for them since there might be provinces who have fewer number of cities/municipalities,
