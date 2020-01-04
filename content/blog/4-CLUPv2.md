@@ -76,7 +76,7 @@ But to summarize the steps on further cleaning the excel file:
 
 2. I had to separate Metro Manila from the excel file first. The reason for this is that the `shapefle` of the City/Municipality Admin Level (Level 3) aggregated Metro Manila into districts. Which is also a problem because the Barangay Admin Level (Level 4) aggregated the Manila City dataset into different districts (e.g. Tondo, Sta. Ana, etc.). That's basically what we do not need. We only need the **16 cities and 1 muncipality of Metro Manila**, nothing more and nothing less in terms of aggregation.
 
-3. I merged the excel file and the city/municipality shapefile, but this has been a long process as well. Because for every merging that I did, I had to check if there are `null` values (i.e. values that did not match). Since the excel file -- or rather the PDF file -- did not contain any PSGC codes, I had to do the merging based on their names. Oh and let us not forget that there might be cities/municipalities with the same name but different provinces. So I had to write a code also for that. Going back to the null values, I had to make sure that all of the values should match. And thankfully after some trial-and-error, I was able to merge all of the values.
+3. Going back to the dataset minus Metro Manila, I merged the excel file and the city/municipality shapefile, but this has been a long process as well. Because for every merging that I did, I had to check if there are `null` values (i.e. values that did not match). Since the excel file -- or rather the PDF file -- did not contain any PSGC codes, I had to do the merging based on their names. Oh and let us not forget that there might be cities/municipalities with the same name but different provinces. So I had to write a code also for that. Going back to the null values, I had to make sure that all of the values should match. And thankfully after some trial-and-error, I was able to merge all of the values.
 
 4. Oof but wait, we're not done yet because we still had to clean the Metro Manila dataset. This one's a bit easier already because we're only dealing with 17 LGUs. But basically I used the barangay dataset of Metro Manila that I got years ago, and had to dissolve them into city/municipality level, replaced the districts of Metro Manila to `CITY OF MANILA`. Once done, I merged the Metro Manila dataframe with its geodataframe counterpart.
 
@@ -90,14 +90,41 @@ Once I'm done with the dataset, I loaded them to Tableau. For the dashboard, I c
 
 <a href="https://ibb.co/3MbstXg"><img src="https://i.ibb.co/0FLXPNH/EDA-For-Formulation-per-Province.jpg" alt="EDA-For-Formulation-per-Province" border="0"></a>
 
-It might be unfair for them since there might be provinces who have fewer number of cities/municipalities, so what we're going to do is to normalize our data first.
+Oops. I guess the cities/municipalities of these two (2) provinces should catch up on what they want to be 10 or 20 years from now. It's for their children and grandchildren's sake.
 
 ### 2. We have a lot of outdated CLUPs, and this could be a future problem on how we use our land in the Philippines.
 
-If you noticed the dashboard, we have a lot of areas still colored in <span style="color:yellow"> yellow </span>. Outdated CLUPs are a big problem as we would not know how to shape our land as a resource. Outdated CLUPs also mean that they are not anymore aligned with the national plans of our country - such as [railroads to be constructed in the future](https://www.rappler.com/newsbreak/iq/239702-new-railways-to-look-out-for).
+If you noticed the dashboard, we have a lot of areas still colored in yellow. Outdated CLUPs are a big problem as we would not know how to shape our land as a resource. Outdated CLUPs also mean that they are not anymore aligned with the national plans of our country - such as [railroads to be constructed in the future](https://www.rappler.com/newsbreak/iq/239702-new-railways-to-look-out-for).
 
-Out of the 1,634 LGUs in our dataset, **1,037** LGUs have outdated CLUPs already. 
+Out of the 1,634 LGUs in our dataset, **1,037** LGUs have outdated CLUPs already. And those **159**...we do not know if what are their plans in life (yet) lol.
 
 <center><a href="https://ibb.co/zf2pQzp"><img src="https://i.ibb.co/x5gWXNW/Chart-Number-of-Outdated-Updated-and-For-Formulation.jpg" alt="Chart-Number-of-Outdated-Updated-and-For-Formulation" border="0"></a>
 
 *Too much yellowwwwwww* </center>
+
+To summarize:
+
+1. Outdated: **63.46%**
+2. Updated: **26.81%**
+3. For Formulation: *9.73%*
+
+### 3. The band 1975 is shookt because they will be replaced by a band called "1978" -- and it will have six (6) members
+
+Lol kidding aside, there are 6 LGUs whose CLUPs are super outdated already (their last plan was 1978). Three (3) are from Region V, two (2) are from BARMM, and 1 from CAR.
+
+Anyway, these are:
+
+1. Daet, Camarines Norte
+2. Labo, Camarines Norte
+3. Viga, Catanduanes
+4. Bontoc, Mountain Province (I miss the coffee and hot chocolate here. The best!!!)
+5. *Marawi City*, Lanao Del Sur
+6. Jolo, Sulu
+
+Speaking of Marawi City, I'm assuming that their CLUP is currently on the works now because of the last year's events, and I hope and pray that the people there are brimming with hope on making their city a better one. So they should really start with a CLUP!
+
+Anyway, I hope This will be useful for HLURB and other planners to easily monitor which areas do not have CLUPs yet. If you are from the LGU and you need assistance in crafting CLUPs, please refer to the [Philippine Institute of Environmental Planners](http://piep.org.ph/) and look for your local PIEP Chapter!
+
+Always remember Daniel Burnham's *famous quote*:
+
+> "Make no little plans; they have no magic to stir men's blood and probably will themselves not be realized. Make big plans; aim high in hope and work, remembering that a noble, logical diagram once recorded will not die."
