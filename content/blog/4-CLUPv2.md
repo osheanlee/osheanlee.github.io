@@ -90,4 +90,14 @@ Once I'm done with the dataset, I loaded them to Tableau. For the dashboard, I c
 
 <a href="https://ibb.co/3MbstXg"><img src="https://i.ibb.co/0FLXPNH/EDA-For-Formulation-per-Province.jpg" alt="EDA-For-Formulation-per-Province" border="0"></a>
 
-It might be unfair for them since there might be provinces who have fewer number of cities/municipalities,
+It might be unfair for them since there might be provinces who have fewer number of cities/municipalities, so what we're going to do is to normalize our data first.
+
+### 2. We have a lot of outdated CLUPs, and this could be a future problem on how we use our land in the Philippines.
+
+If you noticed the dashboard, we have a lot of areas still colored in <span style="color:yellow"> yellow </span>. Outdated CLUPs are a big problem as we would not know how to shape our land as a resource. Outdated CLUPs also mean that they are not anymore aligned with the national plans of our country - such as [railroads to be constructed in the future](https://www.rappler.com/newsbreak/iq/239702-new-railways-to-look-out-for).
+
+Out of the 1,634 LGUs in our dataset, **1,037** LGUs have outdated CLUPs already. 
+
+<center><a href="https://ibb.co/zf2pQzp"><img src="https://i.ibb.co/x5gWXNW/Chart-Number-of-Outdated-Updated-and-For-Formulation.jpg" alt="Chart-Number-of-Outdated-Updated-and-For-Formulation" border="0"></a>
+
+*Too much yellowwwwwww* </center>
