@@ -126,4 +126,5 @@ Speaking of Marawi City, I'm assuming that their CLUP is currently on the works 
 Anyway, I hope This will be useful for HLURB and other planners to easily monitor which areas do not have CLUPs yet. If you are from the LGU and you need assistance in crafting CLUPs, please refer to the [Philippine Institute of Environmental Planners](http://piep.org.ph/) and look for your local PIEP Chapter!
 
 Always remember Daniel Burnham's *famous quote*:
+
 > "Make no little plans; they have no magic to stir men's blood and probably will themselves not be realized. Make big plans; aim high in hope and work, remembering that a noble, logical diagram once recorded will not die."
