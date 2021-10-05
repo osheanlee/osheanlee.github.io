@@ -1,5 +1,7 @@
 ## Ang Ganda Ko
 
+<div align="center"><img src="IMG_5603.jpg" width="200" height="200" alt="description-of-image" /></div>
+
 Feel na feel ko hahahahaaha
 
 ### Markdown
