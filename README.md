@@ -1,8 +1,8 @@
-## Ang Ganda Ko
+## Hi fellas!
 
 <div align="left"><img src="IMG_5603.jpg" width="auto" height="auto" alt="description-of-image" /></div>
 
-Feel na feel ko hahahahaaha
+Name's **Oshean**, and I am a Geospatial Analyst for a Data Science Company based here in the Philippines.
 
 ### Markdown
 
